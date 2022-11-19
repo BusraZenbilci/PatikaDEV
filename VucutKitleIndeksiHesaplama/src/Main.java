@@ -10,10 +10,10 @@ public class Main {
         double height = input.nextDouble();
         // kullanicidan boyunu girmesini iste
         System.out.print("Lütfen kilonuzu giriniz: ");
-        int kilogram = input.nextInt();
+        int weight = input.nextInt();
         // kullanicidan kilosunu girmesini iste
 
-        double bodyMassIndex = kilogram / (height * height);
+        double bodyMassIndex = weight / (height * height);
         // boy ve kiloya göre vücut kitle indeksini hesapla
 
         System.out.println("Vucüt kitle indeksiniz: " + bodyMassIndex);
